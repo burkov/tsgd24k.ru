@@ -105,7 +105,7 @@ const DesktopNav = () => {
                         bg={popoverContentBgColor}
                         p={4}
                         rounded={'xl'}
-                        minW={'sm'}>
+                        minW={'md'}>
                       <Stack>
                         {navItem.children.map((child) => (
                             <DesktopSubNav key={child.label} {...child} />
@@ -226,16 +226,14 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Квартплата',
+    label: 'Тарифы',
     children: [
       {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
+        label: 'Отопление и ГВС в 2022 году',
         href: '#',
       },
       {
-        label: 'New & Noteworthy',
-        subLabel: 'Up-and-coming Designers',
+        label: 'ТСЖ в 2022 году',
         href: '#',
       },
     ],
@@ -244,13 +242,21 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Финансы',
     children: [
       {
-        label: 'Job Board',
-        subLabel: 'Find your dream design job',
+        label: 'Бухгалтерская отчетность за 2021 год',
         href: '#',
       },
       {
-        label: 'Freelance Projects',
-        subLabel: 'An exclusive list for contract work',
+        label: 'Отчет ревизионной комиссии за 2021 год',
+        href: '#',
+      },
+      {
+        label: 'Смета доходов на 2022 год',
+        // subLabel: 'An exclusive list for contract work',
+        href: '#',
+      },
+      {
+        label: 'Смета расходов на 2022 год',
+        // subLabel: 'An exclusive list for contract work',
         href: '#',
       },
     ],
