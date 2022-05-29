@@ -1,11 +1,7 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React, { FC } from 'react';
 
-// markup
-const NotFoundPage = () => {
-  return (
-    <div>Not found</div>
-  )
+const NotFound: FC<{}> = ({}) => {
+  return <div >Страница не найдена</div>;
 }
 
-export default NotFoundPage
+export default NotFound;
