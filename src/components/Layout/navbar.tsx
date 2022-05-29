@@ -267,8 +267,16 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/contacts",
   },
   {
+    label: "Оплата",
+    href: "/how-to-pay",
+  },
+  {
     label: "О доме",
     href: "/about",
+  },
+  {
+    label: "Полезные ссылки",
+    href: "/other",
   },
 ];
 
