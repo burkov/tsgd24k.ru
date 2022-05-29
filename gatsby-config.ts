@@ -8,7 +8,6 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-typescript-css-modules",
     {
       resolve: "@chakra-ui/gatsby-plugin",
       options: {
