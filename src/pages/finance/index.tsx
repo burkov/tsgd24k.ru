@@ -1,10 +1,10 @@
 import React, { FC } from "react";
 import Layout from "../../components/Layout";
 import { graphql } from "gatsby";
-import { AllMarkdownRemark } from "../../types/AllMarkdownRemark";
+import { DocsData } from "../../types/DocsData";
 import DocumentsTable from "../../components/DocumentTable";
 
-const FinancePage: FC<{ data: AllMarkdownRemark }> = ({ data }) => {
+const FinancePage: FC<{ data: DocsData }> = ({ data }) => {
   return (
     <Layout heading="Финансовая отчетность">
       <DocumentsTable data={data} />

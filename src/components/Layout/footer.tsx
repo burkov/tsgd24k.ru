@@ -1,18 +1,17 @@
 import React, { ReactNode } from "react";
-import { FaTable, FaTelegram } from "react-icons/fa";
 
 import {
   Box,
   Button,
   Container,
-  Flex, Link,
+  Flex,
+  Link,
   Stack,
   Text,
   useColorModeValue,
   VisuallyHidden,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 import dayjs from "dayjs";
-import { AtSignIcon } from '@chakra-ui/icons';
 
 const SocialButton = ({
   children,
@@ -53,8 +52,9 @@ const Footer = () => (
     style={{
       position: "fixed",
       left: 0,
-      bottom: 0,
+      bottom: '-16px',
       right: 0,
+      height: '50px'
     }}
   >
     <Container
@@ -65,8 +65,9 @@ const Footer = () => (
       spacing={4}
       justify={{ base: "center", md: "space-between" }}
       align={{ base: "center", md: "center" }}
+      style={{paddingTop: '8px'}}
     >
-      <Flex alignItems="center">
+      <Flex alignItems="center" >
         <Text fontSize="xs" style={{ display: "inline-block", marginRight: "6px" }}>
           © {dayjs().year()} ТСЖ "Дачный 24". Разработка сайта:
         </Text>

@@ -13,6 +13,11 @@ import "@fontsource/open-sans/500.css";
 import "@fontsource/open-sans/700.css";
 import { Helmet } from "react-helmet";
 
+import "dayjs/locale/ru";
+import dayjs from "dayjs";
+
+dayjs.locale("ru");
+
 const theme = extendTheme({
   colors: {
     primary: "cyan",

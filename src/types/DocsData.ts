@@ -1,4 +1,4 @@
-export interface AllMarkdownRemark {
+export interface DocsData {
   allMarkdownRemark: {
     edges: {
       node: {

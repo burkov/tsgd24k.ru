@@ -12,9 +12,9 @@ import {
 import dayjs from "dayjs";
 import { dateFormats } from "../../misc/dateformats";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { AllMarkdownRemark } from "../../types/AllMarkdownRemark";
+import { DocsData } from "../../types/DocsData";
 
-const DocumentsTable: FC<{ data: AllMarkdownRemark }> = ({ data }) => {
+const DocumentsTable: FC<{ data: DocsData }> = ({ data }) => {
   return (
     <TableContainer>
       <Table size="sm">

@@ -2,9 +2,9 @@ import React, { FC } from "react";
 import Layout from "../../components/Layout";
 import DocumentsTable from "../../components/DocumentTable";
 import { graphql } from "gatsby";
-import { AllMarkdownRemark } from "../../types/AllMarkdownRemark";
+import { DocsData } from "../../types/DocsData";
 
-const DocsPage: FC<{ data: AllMarkdownRemark }> = ({ data }) => {
+const DocsPage: FC<{ data: DocsData }> = ({ data }) => {
   return (
     <Layout heading="Документы">
       <DocumentsTable data={data} />
