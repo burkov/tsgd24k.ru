@@ -4,7 +4,7 @@ import DocumentsTable from "../../components/DocumentTable";
 import { graphql } from "gatsby";
 import { AllMarkdownRemark } from "../../types/AllMarkdownRemark";
 
-const AboutPage: FC<{ data: AllMarkdownRemark }> = ({ data }) => {
+const DocsPage: FC<{ data: AllMarkdownRemark }> = ({ data }) => {
   return (
     <Layout heading="Документы">
       <DocumentsTable data={data} />
@@ -37,4 +37,4 @@ export const query = graphql`
   }
 `;
 
-export default AboutPage;
+export default DocsPage;

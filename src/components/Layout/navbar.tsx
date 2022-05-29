@@ -255,16 +255,20 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/docs",
   },
   {
+    label: "Распоряжения",
+    href: "/orders",
+  },
+  {
     label: "Парковка",
     href: "/parking",
   },
   {
-    label: "Телефоны",
-    href: "/phones",
-  },
-  {
     label: "Контакты",
     href: "/contacts",
+  },
+  {
+    label: "О доме",
+    href: "/about",
   },
 ];
 

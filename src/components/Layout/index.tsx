@@ -13,6 +13,7 @@ import * as styles from "./index.module.css";
 import "@fontsource/open-sans/300.css";
 import "@fontsource/open-sans/500.css";
 import "@fontsource/open-sans/700.css";
+import { Helmet } from "react-helmet";
 
 const theme = extendTheme({
   colors: {
@@ -30,6 +31,7 @@ const Layout: FC<{ children?: ReactNode; heading: string }> = ({
 }) => {
   return (
     <ChakraProvider theme={theme}>
+      <Helmet title={heading} defer={false} />
       <nav className={styles.nav}>
         <NavBar />
       </nav>

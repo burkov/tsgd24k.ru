@@ -26,6 +26,7 @@
     "framer-motion": "^6.3.4",
     "gatsby": "^4.15.1",
     "gatsby-plugin-image": "^2.15.0",
+    "gatsby-plugin-react-helmet": "^5.15.0",
     "gatsby-plugin-sharp": "^4.15.0",
     "gatsby-plugin-typescript-css-modules": "^1.0.4",
     "gatsby-source-filesystem": "^4.15.0",
@@ -33,6 +34,7 @@
     "gatsby-transformer-remark": "^5.15.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1"
   },
   "devDependencies": {
@@ -40,6 +42,7 @@
     "@types/prettier": "^2.6.1",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
+    "@types/react-helmet": "^6.1.5",
     "npm-check-updates": "^13.0.3",
     "prettier": "^2.6.2",
     "typescript": "^4.7.2",

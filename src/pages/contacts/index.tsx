@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import Layout from "../../components/Layout";
 
-const AboutPage: FC<{}> = ({}) => {
-  return <Layout>about</Layout>;
+const ContactsPage: FC<{}> = ({}) => {
+  return <Layout heading="Контакты">about</Layout>;
 };
 
-export default AboutPage;
+export default ContactsPage;

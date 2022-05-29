@@ -40,12 +40,13 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `general`,
-        path: `${__dirname}/data/general`,
+        name: `orders`,
+        path: `${__dirname}/data/orders`,
       },
     },
     "gatsby-transformer-remark",
     "gatsby-source-filesystem-markdown-name",
+    "gatsby-plugin-react-helmet",
   ],
 };
 
